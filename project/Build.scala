@@ -4,7 +4,7 @@ import Keys._
 object BuildSettings {
   val buildOrganization = "spray-akka-slick-postgres"
   val buildVersion      = "0.1.0"
-  val buildScalaVersion = "2.10.3"
+  val buildScalaVersion = "2.10.4"
 
   val buildSettings = Defaults.defaultSettings ++ Seq (
     organization := buildOrganization,
@@ -44,7 +44,7 @@ object Dependencies {
   val slick        = "com.typesafe.slick"   %% "slick"             % "1.0.1"
   val postgres     = "postgresql"           %  "postgresql"        % "9.1-901-1.jdbc4"
   val slickJoda    = "com.github.tototoshi" %% "slick-joda-mapper" % "0.3.0"
-  val scalaCsv     = "com.github.tototoshi" %% "scala-csv"         % "1.0.0-SNAPSHOT"
+  val scalaCsv     = "com.github.tototoshi" %% "scala-csv"         % "1.2.0"
   val logback      = "ch.qos.logback"       %  "logback-classic"   % "1.0.0"
 }
 
